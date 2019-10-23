@@ -1,0 +1,182 @@
+body {
+  background-image: url("/Users/tinaloc/Desktop/WebDevelopment/222.jpg");
+}
+
+.border { 
+    background: floralwhite;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    color: black;
+    border-radius: 20px;}
+
+h1 { 
+	color:#F0134D;
+	font-size: 48px; 
+	font-family: 'Satisfy';
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Lobster;
+	color:#F54291;
+	font-size: 30px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+h3 {
+	font-family:Amiri;
+	font-size: 16px;
+}
+
+ul, ol {
+	list-style-position: inside;
+	text-align: center;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+
+i {
+	color: #F0134D;
+}
+
+i:hover {
+	color:black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: blue;
+}
+
+p {
+	font-size: 18px;
+	font-family: Playfair display;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+img {
+	border-radius:150px
+}
+
+#logo {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+.btn {
+  background-color: #F0134D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bolder; 
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.container {
+  width: 960px;
+  margin: 40px auto;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+      width: 500px 
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+}
+/*p {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}*/

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tina's profile page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/37cb86d1a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy" />
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <center class="container">
+    	<div id="loader"></div> 
+    		<div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="border">
+            <h1>Welcome to Tina Loc's profile💕</h1>
+            <img src="/Users/tinaloc/Desktop/WebDevelopment/image.jpg" alt="Tina profile" width="250" id="logo">
+            <p>My name is Tina Loc but my friends call me Tina Loca. </p>
+            <p>I am a second year doing Business Management at King's College London🥰</p>
+            <button type="button" class="btn"><a href="https://www.facebook.com/tinatinatinaaaa">Discover me on my social media</a></button>
+        </div>
+
+        <div class="border">
+            <h2>Playing Piano and singing🔊🎹</h2>
+            <p>My passion is playing the piano and sing</p>
+            <p>I've learnt to play the piano since I was 8, and did 3 years of vocal training</p>
+            <p>I also do cover of trending songs which I also post on my Instagram</p>
+            <p>Wanna listen?</p>
+            <audio controls>
+ 	 		<source src="/Users/tinaloc/Desktop/WebDevelopment/piano.mp3" type="audio/mpeg">
+			</audio>
+        </div>
+
+        <div class="border">
+            <h2>My boyfriend</h2>
+            <p>He is my most favourite human being in the world❤︎</p>
+            <img src="/Users/tinaloc/Desktop/WebDevelopment/img1.jpg" width="250" class="couple" />
+            <img src="/Users/tinaloc/Desktop/WebDevelopment/img2.jpg" width="250" class="couple" />
+        </div>
+
+        <div class="border">
+            <h2>I have a kitten! 🐱🐈</h2>
+            <p>His name is Bambi and he is the cutest little thing</p>
+            <p>He was born in August 2019</p>
+            <p>His favourite food is fish and vegetable</p>
+            <img src="/Users/tinaloc/Desktop/WebDevelopment/cat/1.jpg" class="slider-image" width="200" />
+            <img src="/Users/tinaloc/Desktop/WebDevelopment/cat/2.jpg" class="slider-image" width="200" />
+            <img src="/Users/tinaloc/Desktop/WebDevelopment/cat/3.jpg" class="slider-image" width="200" />
+        </div>
+
+        <div class="border">
+            <h2>I have some friends👯‍♀️🌸</h2>
+            <p>I made some quality friends throughout my course at King's who I am very grateful for, shoutout to:</p>
+            <h3>Chainchain</h3>
+            <h3>Tony Stark</h3>
+            <h3>Mitchell</h3>
+            <h3>Jadoh</h3>
+        </div>
+
+        <div class="border">
+            <h2>To know more about me</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/tinatinatinaaaa"><i class="fab fa-facebook fa-3x"></i></a></li>
+                <li><a href="https://www.instagram.com/tina.loc/"><i class="fab fa-instagram fa-3x"></i></a></li>
+            </ul>
+
+        </div>
+    </div> 
+    </center>
+ <script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</body>
+
+</html>
